@@ -1,10 +1,10 @@
 # Configurations
 title:            pplemover's DEV blog
-longtitle:        Gitbook
+longtitle:        Let's move people.
 author:           Paul Lim
 email:            paulimbest@naver.com
 description: >
-  Build Jekyll site with the GitBook style.
+  @pplemover의 블로그에 오신 것을 환영합니다!
 
 version:          1.0
 gitbook_version:  3.2.3

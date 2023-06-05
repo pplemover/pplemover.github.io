@@ -4,7 +4,7 @@ title: Jekyll Gitbook Theme
 permalink: /
 ---
 
-Make Jelly site have a GitBook look!
+Jekyll Gitbook 테마, 간편하고 직관적이다.
 
 ## Demo
 
@@ -12,20 +12,13 @@ Live demo on Github Pages: [https://sighingnow.github.io/jekyll-gitbook](https:/
 
 [![Jekyll Themes](https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg)](https://jekyll-themes.com/jekyll-gitbook/)
 
-## Why Jekyll with GitBook
+## 왜 Jekyll Gitbook 테마를 써야 하나요?
 
-GitBook is an amazing frontend style to present and organize contents (such as book chapters
-and blogs) on Web. The typical to deploy GitBook at [Github Pages][1]
-is building HTML files locally and then push to Github repository, usually to the `gh-pages`
-branch. It's quite annoying to repeat such workload and make it hard for people do version
-control via git for when there are generated HTML files to be staged in and out.
+GitBook은 웹에서 책이나 블로그와 같이 여러 장을 구성된 콘텐츠를 효과적으로 제공하고 구성하기 위한 멋진 프론트엔드 스타일입니다. 일반적으로 GitBook을 [Github Pages][1]에 배포하는 방법은 로컬에서 HTML 파일을 빌드한 다음, gh-pages 브랜치에 푸시하는 것입니다. 하지만 수정사항이 생길 때마다 동일한 작업을 반복해야 하고, 생성된 HTML 파일을 Git으로 버전 관리하는 것이 어려워집니다.
 
-This theme takes style definition out of generated GitBook site and provided the template
-for Jekyll to rendering markdown documents to HTML, thus the whole site can be deployed
-to [Github Pages][1] without generating and uploading HTML bundle every time when there are
-changes to the original repo.
+이 테마는 GitBook 사이트의 스타일을 벤치마킹하여 마크다운 문서를 HTML로 렌더링할 수 있는 템플릿을 제공합니다. 따라서 원래 저장소에 변경 사항이 있을 때마다 HTML 번들을 생성하고 업로드하는 번거로움을 없앨 수 있으며, 전체 사이트를 [Github Pages][1]에 배포할 수 있습니다. 
 
-## How to Get Started
+## 시작하는 방법
 
 This theme can be used just as other [Jekyll themes][1] and support [remote theme][12],
 see [the official guide][13] as well.
@@ -40,7 +33,7 @@ You can introduce this jekyll theme into your own site by either
 remote_theme: sighingnow/jekyll-gitbook
 ```
 
-### Deploy Locally with Jekyll Serve
+### Jekyll Serve로 로컬에서 실행하기 
 
 This theme can be ran locally using Ruby and Gemfiles.
 
@@ -63,7 +56,7 @@ syntax_highlighter_style: colorful
 The default code highlight style is `colorful`, the full supported styles can be found from [the rouge repository][6]. Customized
 style can be added to [./assets/gitbook/rouge/](./assets/gitbook/rouge/).
 
-## How to generate TOC
+## 목차(TOC) 생성하는 방법
 
 The jekyll-gitbook theme leverages [jekyll-toc][4] to generate the *Contents* for the page.
 The TOC feature is not enabled by default. To use the TOC feature, modify the TOC
@@ -76,7 +69,7 @@ toc:
     h_max: 3
 ```
 
-## Google Analytics, etc.
+## Google Analytics 임베딩이 가능하다. 
 
 The jekyll-gitboook theme supports embedding the [Google Analytics][7], [CNZZ][8] and [Application Insights][9] website analytical tools with the following
 minimal configuration in `_config.yaml`:
@@ -101,6 +94,8 @@ tracker:
 ```
 
 ## Disqus comments
+
+Disqus는 https://disqus.com/에서 제공하는 댓글 관리 플랫폼입니다. 사용자는 Disqus를 사용하여 웹 사이트나 블로그에 댓글 기능을 추가할 수 있습니다. 댓글 기능을 활성화하려면 _config.yaml 파일에 다음과 같은 구성을 추가해야 합니다.
 
 [Disqus](https://disqus.com/) comments can be enabled by adding the following configuration in `_config.yaml`:
 
@@ -146,10 +141,9 @@ Rendered page can be previewed from
 
 [https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html](https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html)
 
-## Cover image inside pages
+## 페이지 상단에 커버 이미지 부착하기
 
-The jekyll-gitbook theme supports adding a cover image to a specific page by adding
-a `cover` field to the page metadata:
+jekyll-gitbook 테마는 특정 페이지에 커버 이미지를 추가하기 위해 (아래와 같이) 페이지 메타데이터에 `cover` 필드를 추가하는 방법을 지원합니다.
 
 ```diff
   ---
