@@ -14,9 +14,11 @@ Live demo on Github Pages: [https://sighingnow.github.io/jekyll-gitbook](https:/
 
 ## 왜 Jekyll Gitbook 테마를 써야 하나요?
 
-GitBook은 웹에서 책이나 블로그와 같이 여러 장을 구성된 콘텐츠를 효과적으로 제공하고 구성하기 위한 멋진 프론트엔드 스타일입니다. 일반적으로 GitBook을 [Github Pages][1]에 배포하는 방법은 로컬에서 HTML 파일을 빌드한 다음, gh-pages 브랜치에 푸시하는 것입니다. 하지만 수정사항이 생길 때마다 동일한 작업을 반복해야 하고, 생성된 HTML 파일을 Git으로 버전 관리하는 것이 어려워집니다.
+GitBook은 웹에서 책이나 블로그와 같이 여러 장을 구성된 콘텐츠를 효과적으로 제공하고 구성하기 위한 유용한 도구입니다. Jekyll은 정적 웹사이트 생성기입니다. GitBook Jekyll은 이 두가지를 결합하여 GitBook의  GitBook 스타일을 Jekyll 웹사이트에 통합하는 방법을 제공합니다. 이러한 통합을 통해 Jekyll을 사용하는 웹사이트에서 GitBook의 강력한 문서 작성 기능을 활용할 수 있으며, 사용자는 Markdown으로 문서를 작성하고 GitBook의 다양한 기능을 웹사이트에 추가할 수 있습니다
 
-이 테마는 GitBook 사이트의 스타일을 벤치마킹하여 마크다운 문서를 HTML로 렌더링할 수 있는 템플릿을 제공합니다. 따라서 원래 저장소에 변경 사항이 있을 때마다 HTML 번들을 생성하고 업로드하는 번거로움을 없앨 수 있으며, 전체 사이트를 [Github Pages][1]에 배포할 수 있습니다. 
+일반적으로 GitBook을 [Github Pages][1]에 배포하는 방법은 로컬에서 HTML 파일을 빌드한 다음, gh-pages 브랜치에 푸시하는 것입니다. 하지만 수정사항이 생길 때마다 동일한 작업을 반복해야 하고, 생성된 HTML 파일을 Git으로 버전 관리하는 것이 어려워집니다. Jekyll Gitbook는 마크다운 문서를 HTML로 렌더링할 수 있는 템플릿을 제공합니다. 따라서 원래 저장소에 변경 사항이 있을 때마다 HTML 번들을 생성하고 업로드하는 번거로움을 없앨 수 있으며, 전체 사이트를 [Github Pages][1]에 배포할 수 있습니다. 
+
+요약하면, Jekyll Gitbook을 사용하면 Markdown 파일을 사용하여 Jekyll 웹사이트를 보다 풍부하고 전문적인 문서로 변환할 수 있습니다. 
 
 ## 시작하는 방법
 
