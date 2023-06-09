@@ -4,11 +4,13 @@ title: Jekyll Gitbook Theme
 permalink: /
 ---
 
-Jekyll Gitbook 테마, 간편하고 직관적이다.
+Jekyll 테마 중 간편하고 직관적인 Gitbook 테마. 
 
-## Demo
+## 개요 
 
-Live demo on Github Pages: [https://sighingnow.github.io/jekyll-gitbook](https://sighingnow.github.io/jekyll-gitbook)
+GitBook Jekyll을 사용하면 Markdown 파일을 사용하여 무엇이든 전문적으로 문서화(Documentation)할 수 있습니다.
+
+라이브 데모: [https://sighingnow.github.io/jekyll-gitbook](https://sighingnow.github.io/jekyll-gitbook)
 
 [![Jekyll Themes](https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg)](https://jekyll-themes.com/jekyll-gitbook/)
 
@@ -35,11 +37,75 @@ You can introduce this jekyll theme into your own site by either
 remote_theme: sighingnow/jekyll-gitbook
 ```
 
-### Jekyll Serve로 로컬에서 실행하기 
+### 포스트 추가하는 방법
+
+_posts 폴더에 markdown 문서를 추가하면 GitBook Jekyll의 빌드 프로세스는 자동으로 markdown을 html로 변환시켜줍니다. 아래의 단계를 따라 진행하면 됩니다.
+
+1. 우선 터미널에서 `jekyll --version` 명령어를 실행하여 Jekyll의 설치 여부와 버전 정보를 확인합니다. (Jekyll은 Ruby 기반의 도구이므로, Ruby가 시스템에 설치되어 있어야 합니다. Ruby가 설치되어 있지 않은 경우 Ruby를 설치해야 합니다.)
+
+2. _pages 폴더에 Markdown 파일을 추가합니다. 파일 이름은 마음대로 지을 수 있지만 확장자는 .md로 설정해야 합니다.
+
+3. 프로젝트 폴더 내에서 `jekyll build` 명령어로 웹사이트를 빌드합니다. 이 명령어는 Jekyll이 _site 폴더에 정적인 HTML 파일을 생성하도록 합니다. _site 폴더는 Jekyll이 생성한 웹사이트의 결과물이 저장되는 곳입니다. 
+
+4. 빌드가 완료되면 _site 폴더 내에 생성된 HTML 파일을 호스팅하거나 로컬 웹 서버를 사용하여 확인할 수 있습니다. 만약 로컬 웹 서버를 사용하려면, `jekyll serve` 명령어를 실행합니다. 이 웹사이트를 브라우저에서 확인할 수 있는 주소(일반적으로 http://localhost:4000)를 출력합니다. 
 
 This theme can be ran locally using Ruby and Gemfiles.
 
 [Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll) - GitHub
+
+
+## Troubleshooting
+
+GitBook Jekyll에서 Markdown 파일을 _pages에 추가하고 jekyll build 명령어를 실행했음에도 불구하고 _site 폴더에 생성된 정적 HTML 파일이 보이지 않는 경우 몇 가지 가능한 이유가 있을 수 있습니다. 여기에 몇 가지 확인해야 할 사항을 안내해 드리겠습니다:
+
+Markdown 파일의 YAML 프론트 매터(Front Matter) 확인: Markdown 파일의 맨 위에 YAML 프론트 매터가 있는지 확인해야 합니다. YAML 프론트 매터는 Markdown 파일의 메타데이터를 정의하는 블록입니다. Jekyll은 YAML 프론트 매터를 읽고 해당 내용을 기반으로 정적 사이트를 생성합니다. 예를 들어, 파일의 레이아웃, 제목, 카테고리 등을 지정할 수 있습니다. 파일에 YAML 프론트 매터가 없으면 Jekyll이 해당 파일을 처리하지 않을 수 있습니다. YAML 프론트 매터의 형식은 다음과 같아야 합니다:
+yaml
+Copy code
+---
+layout: default
+title: My Page
+---
+이 예제에서는 layout과 title 필드를 포함하고 있습니다. 필요에 따라 추가적인 필드를 정의할 수 있습니다.
+
+YAML 프론트 매터의 구문을 다음과 같이 확인해 보세요:
+
+YAML 프론트 매터는 ---으로 시작해야 합니다. 이것은 YAML 프론트 매터의 시작을 나타냅니다.
+YAML 프론트 매터는 ---로 끝나야 합니다. 이것은 YAML 프론트 매터의 끝을 나타냅니다.
+YAML 프론트 매터의 내용은 키와 값의 쌍으로 구성되어야 합니다. 각 키와 값은 콜론(:)으로 구분되어야 합니다.
+YAML 문법에서 들여쓰기는 중요합니다. 들여쓰기에는 공백 문자(스페이스 또는 탭)를 사용할 수 있으며, 들여쓰기 수준에 따라 구조가 형성됩니다.
+예를 들어, 아래는 유효한 YAML 프론트 매터의 예시입니다:
+
+yaml
+Copy code
+---
+layout: post
+title: My Test Post
+date: 2023-06-05
+categories:
+  - Blog
+  - Testing
+tags:
+  - Jekyll
+  - GitBook
+---
+
+
+
+
+
+
+Markdown 파일의 확장자 확인: Markdown 파일의 확장자가 .md인지 확인하세요. Jekyll은 Markdown 파일의 확장자를 .md로 기대합니다. 다른 확장자를 사용하는 경우 Jekyll이 해당 파일을 처리하지 않을 수 있습니다.
+
+_config.yml 파일 확인: Jekyll의 설정 파일인 _config.yml에 include 옵션으로 _pages 디렉토리를 포함하도록 설정되어 있는지 확인하세요. _config.yml 파일을 열고 아래와 같은 설정이 있는지 확인해 보세요:
+
+makefile
+Copy code
+include:
+  - _pages
+위 설정은 Jekyll에게 _pages 디렉토리의 내용을 포함하여 사이트를 빌드하도록 지시합니다.
+
+Jekyll 빌드 오류 확인: jekyll build 명령을 실행했을 때 오류 메시지가 출력되는지 확인해 보세요. Markdown 파일에 오류가 있거나 Jekyll 설정 파일(_config.yml)에 문제가 있을 수 있습니다. 오류 메시지를 통해 문제의 원인을 파악하고 수정할 수 있습니다.
+위의 사항을 확인하고 여전히 문제가 발생하는 경우, 추가적인 디버깅이 필요할 수 있습니다. 터미널에서 jekyll build 명령을 실행할 때 -V 또는 --verbose 옵션을 추가하여 상세한 출력을 확인할 수 있습니다. 예를 들어, jekyll build -V 명령을 실행하면 빌드 과정의 상세한 로그를 확인할 수 있습니다. 로그를 통해 어떤 파일이 처리되고 있는지, 어떤 오류가 발생하는지 등을 파악할 수 있습니다.
 
 ## Full-text search
 
