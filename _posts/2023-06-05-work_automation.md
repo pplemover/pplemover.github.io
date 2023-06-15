@@ -1,5 +1,5 @@
 ---
-title: 업무자동화 시리즈
+title: 업무자동화 using Python
 author: pplemover
 date: 2023-06-05
 category: Jekyll
@@ -13,8 +13,11 @@ layout: post
 - PDFMiner를 사용하여 PDF를 텍스트로 변환하려면 다음 단계를 따르면 됩니다:
 
 1. PDFMiner 설치하기
-   - 먼저 pip 명령을 사용하여 PDFMiner 패키지를 설치해야 합니다. `pip install pdfminer.six` 명령을 실행하여 설치할 수 있습니다.
-  
+   - 먼저 pip 명령을 사용하여 PDFMiner 패키지를 설치해야 합니다. 
+   - `pip install pdfminer.six` 명령을 실행하여 설치할 수 있습니다.
+
+<br>
+
 2. PDFMiner로 PDF 문서 읽기
    - PDFMiner를 사용하여 PDF 문서를 읽기 위해서는 'pdfminer.high_level' 모듈을 임포트해야 합니다. 아래 코드를 사용하여 PDF 문서를 읽고 텍스트로 변환할 수 있습니다.
       ```
@@ -26,6 +29,8 @@ layout: post
       text = extract_text(pdf_path)
       ```
     - extract_text 함수는 PDF에서 텍스트를 추출하여 문자열로 반환합니다. 
+
+<br>
 
 3. 이제 추출된 텍스트를 원하는 방식으로 처리하고 분석할 수 있습니다. 
    - 단, 추출된 텍스트를 새로운 txt 파일에 저장하고자 한다면 다음 명령어를 사용합니다.  
@@ -54,11 +59,15 @@ layout: post
 <br>
 
 
-## 가상 인물 개인 정보 (txt 파일) 1천 개 생성하기
+## 파이썬으로 가상 인물 개인 정보 (txt 파일) 1천 개 생성하기
+
+<br>
 
 - 가상 인물 정보 생성은 보안 기법 중 하나입니다. 온라인 서비스에서 개인 정보를 수집하거나 저장할 때 실제 개인 정보를 사용하지 않고, 대신 가상의 정보를 활용하여 개인 식별을 어렵게 만드는 것입니다.따라서 개인 정보의 노출과 악용을 방지하여 개인정보를 보호하기 위한 목적으로 사용될 수 있습니다. 
 
-- 우선 알아야 할 것은, 파이썬에서 파일을 생성하고, 데이터를 기록하는 방법입니다. 
+<br>
+
+- 우선 알아야 할 것은 파이썬에서 파일을 생성하고, 데이터를 기록하는 방법입니다. 
    ```
       myFile = open("test.txt", "w")
 
@@ -67,34 +76,34 @@ layout: post
       myFile.close()
    ```  
 
-   - 위 코드는 'text.txt' 라는 파일을 쓰기 모드('w')로 열고, 'test'라는 문자열을 파일에 씁니다. 그런 다음, 파일 객체를 안전하게 닫습니다. 
+   - 위 코드는 'text.txt' 라는 파일을 쓰기 모드('w')로 열고, 'test'라는 문자열을 파일에 씁니다. 그다음, 파일 객체를 안전하게 닫습니다. 
 
-- 파이썬에서 제공하는 random 모듈을 사용하여 리스트 항목 중 임의의 항목을 선택하여 가상 인물 개인 정보를 생성할 것입니다.
+<br>
+
+- 무작위로 사람 이름을 생성하는 코드는 다음과 같습니다.
    ```
    import random
-   a = [1, 2]
-   random.choice(a)
+
+   first_name_samples = "김이박최정강조윤장임나"
+   middle_name_samples = "민서선예지도하주윤채현지휘"
+   last_name_samples = "준윤우원호홍후서연아은진수"
+
+   def random_name():
+      result = ""
+      result += random.choice(first_name_samples)
+      result += random.choice(middle_name_samples)
+      result += random.choice(last_name_samples)
+      return result
+
+   random_name()
    ```
-
-
-1. 이름, 이메일 생성에 사용할 샘플 글자들을 정의합니다. 
-      ```
-         first_name_samples = "김이박최정강조윤장임나"
-         middle_name_samples = "민서선예지도하주윤채현지휘"
-         last_name_samples = "준윤우원호홍후서연아은진수"
-
-         alphabet_samples = "abcdefghizklmnopqrstuvwxyz1234567890"
-      ```
-2. 반복문을 사용하여 
-3. 파이썬의 time()을 사용하여 나이를 생성합니다. time()은 현재 시각을 1백만분의 1초 단위로 불러옵니다. 맨 뒤 숫자 2개를 뽑아내어 나이로 사용하는 방식입니다. 
-      ```
-         import time
-         time.time()
-      ```
-4. 성별 생성을 위해 다음과 같이 리스트에 성별을 삽입하고, 이 중 하나를 랜덤으로 뽑아내어 성별로 사용합니다. 
-      ```
-         ["male", "female"]
-      ```
+   - 이는 파이썬에서 제공하는 random 모듈을 사용하여 리스트 항목 중 임의의 항목을 선택하는 원리를 차용한 것입니다.
 
 <br>
-<br>
+
+- 무작위로 이메일 주소를 생성하는 코드는 다음과 같습니다. 
+   ```
+      alphabet_samples = "abcdefghizklmnopqrstuvwxyz1234567890"
+      
+      def alphabet
+   ```  
