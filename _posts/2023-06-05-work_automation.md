@@ -97,8 +97,25 @@ layout: post
 
    random_name()
    ```
-   - 이는 파이썬에서 제공하는 random 모듈을 사용하여 리스트 항목 중 임의의 항목을 선택하는 원리를 차용한 것입니다.
+   - 이는 파이썬에서 제공하는 random 모듈을 사용하여 리스트 항목 중 임의의 항목을 선택하는 원리를 차용한 것입니다. 
+   - 다음으로, 결과물을 저장할 임의의 폴더를 생성합니다.
+      ```
+         import os
+         os.mkdir("personal_info")
+      ```
+   -  마지막으로, 개인정보 파일을 자동으로 생성하는 부분입니다. NUM_SAMPLES 회수만큼 무작위 개인정보 생성을 반복합니다. 
+      ```
+      NUM_SAMPLES = 100
 
+      for i in range(NUM_SAMPLES):
+         # 무작위로 사람 이름을 생헙니다. 
+         name = randome_name()
+
+         # 결과물 파일의 이름을 정의합니다(자동생성).
+         filename = "personal_info/" + str(i) + "_" + name + ".txt"
+
+         # 결과물 파일을 생성합니다. 텅 빈 파일이 생성됩니다.
+      ```
 <br>
 
 - 무작위로 이메일 주소를 생성하는 코드는 다음과 같습니다. 
