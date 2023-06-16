@@ -1,14 +1,14 @@
 ---
 title: About
 author: Tao He
-date: 2022-02-04
+date: 2023-06-15
 category: Jekyll
 layout: post
 ---
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fpplemover&count_bg=%23170206&title_bg=%230EE90F&icon=git.svg&icon_color=%23E7E7E7&title=Visitor+Stats&edge_flat=false)](https://hits.seeyoufarm.com)
 
-### Hello world <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px">, I'm Paul Lim
+### Hello world <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px">, I'm People Mover
 
 <details>
   <summary><b>&nbsp;&nbsp;Intro</b></summary>
