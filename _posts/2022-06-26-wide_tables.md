@@ -1,36 +1,12 @@
 ---
-title: Wide tables
-author: Tao He
-date: 2022-06-26
+title: 손해보험사 사고처리 플랫폼 데모앱
+author: pplemover
+date: 2023-06-10
 category: Jekyll
 layout: post
 ---
 
-A wide tables needs to be wrapped into a `div` with class `table-wrapper`
-to make sure it displayed as expected on mobile devices. For example,
+렉카 등 특수차 사고로 5년간 사상자가 9000명이라는 보도.
 
-```markdown
-<div class="table-wrapper" markdown="block">
+https://www.newspim.com/news/view/20221006001261
 
-|title1|title2|title3|title4|title5|title6|title7|title8|
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|1|2|3|4|5|6|7|8|
-|1|2|3|4|5|6|7|8|
-|1|2|3|4|5|6|7|8|
-|1|2|3|4|5|6|7|8|
-
-</div>
-```
-
-Will be rendered as
-
-<div class="table-wrapper" markdown="block">
-
-|title1|title2|title3|title4|title5|title6|title7|title8|
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|1|2|3|4|5|6|7|8|
-|1|2|3|4|5|6|7|8|
-|1|2|3|4|5|6|7|8|
-|1|2|3|4|5|6|7|8|
-
-</div>
