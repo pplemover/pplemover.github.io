@@ -10,3 +10,7 @@ layout: post
 
 https://www.newspim.com/news/view/20221006001261
 
+보험사 렉카 위치정보 공유
+
+사고 일어났을 때 대처방법 
+

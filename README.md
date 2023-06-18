@@ -4,17 +4,19 @@ title: Jekyll Gitbook Theme
 permalink: /
 ---
 
-Jekyll 테마 중 간편하고 직관적인 Gitbook 테마. 
+# The Jekyll Gitbook GuideBook (KOR). 
 
 ## 개요 
 
-GitBook Jekyll을 사용하면 Markdown 파일을 사용하여 무엇이든 전문적으로 문서화(Documentation)할 수 있습니다.
+GitBook Jekyll을 Jekyll 테마로 사용하기로 결정하셨나요? 탁월한 선택입니다. GitBook Jekyll을 사용하면 Markdown 파일을 사용하여 무엇이든 문서화(Documentation)할 수 있으니까요.
 
 라이브 데모: [https://sighingnow.github.io/jekyll-gitbook](https://sighingnow.github.io/jekyll-gitbook)
 
 [![Jekyll Themes](https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg)](https://jekyll-themes.com/jekyll-gitbook/)
 
+<br>
 <hr>
+<br>
 
 ## 왜 Jekyll Gitbook 테마를 써야 하나요?
 
@@ -24,7 +26,9 @@ GitBook은 웹에서 책이나 블로그와 같이 여러 장을 구성된 콘�
 
 일반적으로 GitBook을 [Github Pages][1]에 배포하는 방법은 로컬에서 HTML 파일을 빌드한 다음, gh-pages 브랜치에 푸시하는 것입니다. 하지만 수정사항이 생길 때마다 동일한 작업을 반복해야 하고, 생성된 HTML 파일을 Git으로 버전 관리하는 것이 어려워집니다. Jekyll Gitbook는 마크다운 문서를 HTML로 렌더링할 수 있는 템플릿을 제공합니다. 따라서 원래 저장소에 변경 사항이 있을 때마다 HTML 번들을 생성하고 업로드하는 번거로움을 없앨 수 있으며, 전체 사이트를 [Github Pages][1]에 배포할 수 있습니다.
 
+<br>
 <hr>
+<br>
 
 ## 시작하는 방법
 
@@ -33,14 +37,24 @@ This theme can be used just as other [Jekyll themes][1] and support [remote them
 Jekyll Gitbook 테마를 사용하기 위해서는 이 레포지토리를 [Fork][3]하여 마크다운 문서를 `_posts` 폴더에 추가하거나, 기존의 jekyll 프로젝트에서 테마를 전환하기 위해서는 [`_config.yml`][14]에서 remote theme 설정을 변경하면 됩니다. 
 
 ```yaml
+# Configurations
+title:            Jekyll Gitbook
+longtitle:        Jekyll Gitbook
+
 remote_theme: sighingnow/jekyll-gitbook
 ```
 
+<br>
 <hr>
+<br>
 
 ## 포스트 추가하는 방법
 
 _posts 폴더에 markdown 문서를 추가하면 GitBook Jekyll의 빌드 프로세스는 자동으로 markdown을 html로 변환시켜줍니다. 아래의 단계를 따라 진행하면 됩니다.
+
+> ##### TIP
+>
+> html 문서를 수동으로 생성하지 마십시오.
 
 1. 우선 터미널에서 `jekyll --version` 명령어를 실행하여 Jekyll의 설치 여부와 버전 정보를 확인합니다. (Jekyll은 Ruby 기반의 도구이므로, Ruby가 시스템에 설치되어 있어야 합니다. Ruby가 설치되어 있지 않은 경우 Ruby를 설치해야 합니다.)
 
@@ -54,7 +68,9 @@ This theme can be ran locally using Ruby and Gemfiles.
 
 [Jekyll로 로컬에서 GitHub Pages를 테스트하려면 이 문서를 참고하세요](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll) - GitHub
 
+<br>
 <hr>
+<br>
 
 ## 빌드 과정에서 생기는 문제 해결하기
 
@@ -77,7 +93,9 @@ GitBook Jekyll에서 Markdown 파일을 _pages에 추가하고 jekyll build 명�
 - _config.yml 파일 확인: Jekyll의 설정 파일인 _config.yml에 include 옵션으로 _pages 디렉토리를 포함하도록 설정되어 있는지 확인하세요. _config.yml 파일을 열고 아래와 같은 설정이 있는지 확인해 보세요.
 - jekyll build 명령을 실행했을 때 오류 메시지가 출력되는지 확인해 보세요. Markdown 파일에 오류가 있거나 Jekyll 설정 파일(_config.yml)에 문제가 있을 수 있습니다. jekyll build 명령을 실행할 때 -V 또는 --verbose 옵션을 추가하면 빌드 과정의 상세한 로그를 확인할 수 있습니다. 로그를 통해 어떤 파일이 처리되고 있는지, 어떤 오류가 발생하는지 등을 파악할 수 있습니다.
 
+<br>
 <hr>
+<br>
 
 ## Full-text search
 
@@ -85,7 +103,9 @@ jekyll-gitbook 테마의 검색 기능은 [gitbook-plugin-search-pro][5] 플러�
 
 [https://sighingnow.github.io/jekyll-gitbook/?q=generated](https://sighingnow.github.io/jekyll-gitbook/?q=generated)
 
+<br>
 <hr>
+<br>
 
 ## 코드 스니펫 스타일 변경하기
 
@@ -97,7 +117,9 @@ syntax_highlighter_style: colorful
 
 default 값은 `colorful` 인데, 적용 가능한 모든 스타일을 살펴보기 위해서는 [the rouge repository][6] 를 참고하세요. [./assets/gitbook/rouge/](./assets/gitbook/rouge/)에 커스터마이징된 스타일을 추가할 수 있습니다.
 
+<br>
 <hr>
+<br>
 
 ## 목차(TOC) 생성하는 방법
 
@@ -112,9 +134,11 @@ toc:
     h_max: 3
 ```
 
+<br>
 <hr>
+<br>
 
-## Google Analytics 와 같은 웹 분석 도구 임베딩하는 방법
+## Google Analytics 등 웹 분석 도구 임베딩하는 방법
 
 Jekyll-Gitboook 테마는 `_config.yaml` 파일에서 다음과 같은 최소한의 설정으로 [Google Analytics][7], [CNZZ][8], [Application Insights][9] 웹 분석 도구를 통합할 수 있습니다.
 
@@ -134,7 +158,9 @@ Jekyll-Gitboook 테마는 `_config.yaml` 파일에서 다음과 같은 최소한
     application_insights: "<YOUR APPLICATION INSIGHTS CONNECTION STRING>"
   ```
 
+<br>
 <hr>
+<br>
 
 ## Disqus comments
 
@@ -144,7 +170,9 @@ Disqus는 https://disqus.com/에서 제공하는 댓글 관리 플랫폼입니�
 disqushandler: "<YOUR DISQUS SHORTNAME>"
 ```
 
+<br>
 <hr>
+<br>
 
 ## 필요한 CSS나 JavaScript 요소를 추가하기
 
@@ -168,9 +196,11 @@ disqushandler: "<YOUR DISQUS SHORTNAME>"
   <br>
   설정을 저장하고 지킬-깃북 테마를 빌드하거나 로컬 서버를 실행하여 변경 사항을 적용하면 됩니다.
 
+<br>
 <hr>
+<br>
 
-## 원하는 폰트로 수정하는 방법
+## 원하는 폰트가 있으신가요?
 
 폰트는 [`./assets/gitbook/custom.css`][10] 파일의 `.book.font-family-0` 및 `.book.font-family-1` 항목을 수정하여 사용자 정의할 수 있습니다.
 
@@ -186,9 +216,11 @@ disqushandler: "<YOUR DISQUS SHORTNAME>"
 
 해당 CSS 코드를 수정하여 원하는 폰트 패밀리로 변경한 후, 변경 사항을 저장하고 적용할 때 지킬-깃북 테마를 빌드하거나 로컬 서버를 실행하면 커스텀 폰트가 적용됩니다.
 
+<br>
 <hr>
+<br>
 
-## 팁, 경고, 위험 블록
+## 팁(tip), 경고(warning), 위험(danger) 블록
 
 Jekyll-Gitbook 테마는 팁(Tip), 경고(Warning), 위험(Danger) 블록과 같은 사용자 정의 kramdown 속성인 `{: .block-tip }`, `{: .block-warning }`, `{: .block-danger }`를 지원합니다. 해당 마커는 다음과 같이 사용할 수 있습니다.
 
@@ -202,7 +234,9 @@ Jekyll-Gitbook 테마는 팁(Tip), 경고(Warning), 위험(Danger) 블록과 같
 
 [데모 보기](https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html)
 
+<br>
 <hr>
+<br>
 
 ## 페이지 상단에 커버 이미지 부착하기
 
@@ -219,7 +253,9 @@ jekyll-gitbook 테마는 특정 페이지에 커버 이미지를 추가하기 �
   ---
 ```
 
+<br>
 <hr>
+<br>
 
 ## License
 
