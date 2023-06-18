@@ -8,35 +8,26 @@ layout: post
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fpplemover&count_bg=%23170206&title_bg=%230EE90F&icon=git.svg&icon_color=%23E7E7E7&title=Visitor+Stats&edge_flat=false)](https://hits.seeyoufarm.com)
 
-### Hello world <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px">, I'm People Mover
+### 안녕하세요 <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px">
 
-<details>
-  <summary><b>&nbsp;&nbsp;Intro</b></summary>
-  &nbsp;&nbsp;&nbsp;Passionate and innovative software developer with expertise in automation and a strong belief in the power of technology to improve lives. Skilled in collaborating with cross-functional teams to identify and solve problems using programming, with a focus on making the world a better place. Able to leverage creativity and technical skills to streamline processes and increase comfort through automation.
+### 피플무버입니다.
+
+<br>
+
+### <b>Intro</b>
+  &nbsp;&nbsp;&nbsp;저는 온라인 플랫폼을 통해 사람들이 긍정적인 방향으로 연결되고 사회적 번영을 이루는 데에 기여하고자 합니다. 또한, 코딩을 할 줄 모르는 사람들도 제 블로그를 통해 자신의 업무에 디지털 기술을 적용하여 생산성을 향상시킬 수 있다는 사실을 강조하고 싶습니다. 제 블로그는 쉽고 흥미로운 방식으로 코딩 지식을 공유하며, 실용적인 가이드를 제공하여 모두가 디지털 기술을 활용할 수 있도록 돕기 위해 노력하고 있습니다. 함께하는 분들이 일상과 업무에서 디지털 기술을 적극 활용함으로써 성과를 향상시킬 수 있도록 지원하는 것이 제 목표입니다.
 </details>
 
-- ✨ At present, I am pursuing studies in Full Stack Web Development.
-- 💪 PYTHON - DJANGO - JAVASCRIPT - VUE - REACT
-- 🌱 Let us endeavor to address outstanding challenges in the world.
-- 📫 Reach me at `paulimbest@naver.com` or `paulimbest1200@gmail.com`.
-- 😄 Visit my [DEV blog](https://pplemover.github.io)
+- 💪 PYTHON - DJANGO - JAVASCRIPT - VUE - REACT (FrontEnd)
+- 🌱 우리 사회의 미해결 과제에 도전합니다.
+- 📫 `paulimbest@naver.com` 혹은 `paulimbest1200@gmail.com` 로 연락주세요.
 
-<details>
-  <summary><b>🔗&nbsp;&nbsp;My&nbsp;Web Projects</b></summary>
-  
- - [Starbucks Clone Website](https://lambent-chaja-ac32df.netlify.app) - Starbucks Korea Website Clone project made with HTML, CSS, JS.
- 
- - [Video Platform(Unnamed)](https://venerable-tanuki-6f5104.netlify.app) - This project compiles YouTube videos grouped into one topic and shows them to the target audience. The video was embedded using an iFrame. I am currently working on a project using Django. It is not only meant to compile video clips in time order, but to present statiscal analyisis of the videos.
-  
- - [SUITEE](https://github.com/pplemover/suitee) - SUITEE is a digital dashboard made for WEB addicts, made with Django.
-  
-</details>
+### <b>Contents</b>
 
-<details>
-  <summary><b>⚡&nbsp;&nbsp;Awards&nbsp;and&nbsp;Achievements</b></summary>
-  <br/>
+### <b>Web Projects</b>
   
-- ➡️ [Grand Prize](https://m.blog.naver.com/uosblog/222165125291) at the 'Autonomous Driving and C-ITS Idea Contest' funded by the Korean Department of Transportation.
+ - [Starbucks Clone Website](https://lambent-chaja-ac32df.netlify.app) - 스타벅스 코리아 웹사이트 클론코딩
+### <b>Awards&nbsp;and&nbsp;Achievements</b>
+  
+- ➡️ 자율협력주행 및 C-ITS 아이디어 공모전 [국토교통부 장관상](https://m.blog.naver.com/uosblog/222165125291) 
 - ⚡ English Certification: TOEIC `980`, OPIC Speaking `Advanced Low`.
-  
-</details>
