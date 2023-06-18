@@ -224,6 +224,8 @@ disqushandler: "<YOUR DISQUS SHORTNAME>"
 
 Jekyll-Gitbook 테마는 팁(Tip), 경고(Warning), 위험(Danger) 블록과 같은 사용자 정의 kramdown 속성인 `{: .block-tip }`, `{: .block-warning }`, `{: .block-danger }`를 지원합니다. 해당 마커는 다음과 같이 사용할 수 있습니다.
 
+### Tip (`{: .block-tip }`)
+
 ```markdown
 > ##### TIP
 >
@@ -232,7 +234,51 @@ Jekyll-Gitbook 테마는 팁(Tip), 경고(Warning), 위험(Danger) 블록과 같
 {: .block-tip }
 ```
 
-[데모 보기](https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html)
+> ##### TIP
+>
+> This guide is last tested with @napi-rs/canvas^0.1.20, so make sure you have
+> this or a similar version after installation.
+{: .block-tip }
+
+<br>
+
+### Warnings (`{: .block-warning}`)
+
+```markdown
+> ##### WARNING
+>
+> Be sure that you're familiar with things like async/await and object destructuring
+> before continuing, as we'll be making use of features like these.
+{: .block-warning }
+```
+
+> ##### WARNING
+>
+> Be sure that you're familiar with things like async/await and object destructuring
+> before continuing, as we'll be making use of features like these.
+{: .block-warning }
+
+<br>
+
+### Dangers
+
+Using a `{: .block-danger}` attribute:
+
+```markdown
+> ##### DANGER
+>
+> You cannot delete an ephemeral message.
+{: .block-danger }
+```
+
+> ##### DANGER
+>
+> You cannot delete an ephemeral message.
+{: .block-danger }
+
+
+
+다른 스타일은 [the discord.js website](https://discordjs.guide/popular-topics/canvas.html#setting-up-napi-rs-canvas)에서 참조하세요. [kramdown에서 지원하는 마크다운 속성](https://kramdown.gettalong.org/quickref.html#block-attributes)을 사용할 수도 있습니다. [jekyll-gitbook의 공식문서](https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html)에서도 살펴볼 수 있습니다.
 
 <br>
 <hr>
