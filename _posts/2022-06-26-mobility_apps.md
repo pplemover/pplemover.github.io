@@ -16,5 +16,5 @@ https://www.newspim.com/news/view/20221006001261
 
 사고 일어났을 때 대처방법 
 
-이것은 댚표 
+이것은 
 
