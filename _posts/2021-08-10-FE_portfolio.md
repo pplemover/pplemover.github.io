@@ -1,5 +1,5 @@
 ---
-title: [포트폴리오] 만들어 보고픈 토이 프로젝트들
+title: 프런트엔드 포트폴리오
 author: Tao He
 date: 2021-08-10
 category: Jekyll
