@@ -24,6 +24,8 @@ layout: post
 
 ### <b>Contents</b>
 
+  디지털 역량은 제조업, 공공, 금융, 물류/운송, 통신/네트워크, 교육 등 모든 영역과 분야에서 필수적입니다. 디지털 역량 향상에 관심을 가신 모든 분들이 제 블로그에서 얻은 스킬 혹은 인사이트로 본인의 업무를 새롭게 창조해 나갔으면 좋겠습니다.
+
 ### <b>Web Projects</b>
   
  - [Starbucks Clone Website](https://lambent-chaja-ac32df.netlify.app) - 스타벅스 코리아 웹사이트 클론코딩
