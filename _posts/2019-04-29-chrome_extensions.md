@@ -131,3 +131,11 @@ layout: post
    ```
 
 </details>
+
+
+### <b>Chrome 웹 스토어에 게시하기</b>
+> ##### TIP
+>Chrome 웹 스토어에 확장 프로그램을 게시(publish)하기 전에, 먼저 CWS 개발자로 등록하고 일회성 Registration Fee($5)를 결제해야 합니다.
+
+
+https://developer.chrome.com/docs/webstore/register/
