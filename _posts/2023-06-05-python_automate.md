@@ -1,5 +1,5 @@
 ---
-title: 업무자동화 using Python
+title: [업무자동화] 파이썬으로 퇴근시간 앞당기기
 author: pplemover
 date: 2023-06-05
 category: Jekyll

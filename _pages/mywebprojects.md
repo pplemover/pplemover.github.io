@@ -1,7 +1,7 @@
 ---
-title: 프런트엔드 포트폴리오
-author: Tao He
-date: 2021-08-10
+title: My Web Projects
+author: 임휘진
+date: 2022-02-05
 category: Jekyll
 layout: post
 ---
