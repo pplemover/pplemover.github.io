@@ -13,12 +13,11 @@ layout: post
 - PDFMiner를 사용하여 PDF를 텍스트로 변환하려면 다음 단계를 따르면 됩니다:
 
 1. PDFMiner 설치하기
-   - 먼저 pip 명령을 사용하여 PDFMiner 패키지를 설치해야 합니다. 
-   - `pip install pdfminer.six` 명령을 실행하여 설치할 수 있습니다.
+   - `pip install pdfminer.six` 명령을 실행하여 PDFMiner 패키지를 설치할 수 있습니다.
 
 <br>
 
-2. PDFMiner로 PDF 문서 읽기
+1. PDFMiner로 PDF 문서 읽기
    - PDFMiner를 사용하여 PDF 문서를 읽기 위해서는 'pdfminer.high_level' 모듈을 임포트해야 합니다. 아래 코드를 사용하여 PDF 문서를 읽고 텍스트로 변환할 수 있습니다.
       ```
       from pdfminer.high_level import extract_text

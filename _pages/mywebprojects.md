@@ -26,15 +26,6 @@ layout: post
 - https://www.sevenzone.com/bbs/board.php?bo_table=column&wr_id=637
 - https://swaglog.tistory.com/136
 
-
-## 손해보험사 사고처리 플랫폼 데모앱
-
-2022년 기준 [렉카 등 특수차 사고로 지난 5년간 사상자가 9000명](https://www.newspim.com/news/view/20221006001261)이라는 뉴스 보도를 보고. 
-
-보험사 렉카 위치정보 공유
-
-사고 일어났을 때 대처방법 
-
 ## 주소입력 정확도강화
 
 
