@@ -132,10 +132,30 @@ layout: post
 
 </details>
 
+<hr>
 
-### <b>Chrome 웹 스토어에 게시하기</b>
-> ##### TIP
+## <b>Chrome 웹 스토어에 등록하고 승인받기</b>
+> #### TIP
 >Chrome 웹 스토어에 확장 프로그램을 게시(publish)하기 전에, 먼저 CWS 개발자로 등록하고 일회성 Registration Fee($5)를 결제해야 합니다.
+
+   - 업로드
+
+   [크롬 확장 프로그램 대시보드](https://chrome.google.com/webstore/devconsole)에서 확장 프로그램을 압축한 ZIP 파일을 업로드하는 것으로 시작됩니다. 압축 파일을 업로드하면 승인 후 업로드됩니다.
+
+   - 정보 등록
+
+   스토어 메인 페이지에 들어가는 제목, 요약, 설명을 작성합니다. 
+   스토어 아이콘, 내부 이미지 등을 사이즈에 맞게 입력합니다. 
+   이후 기타 정보를 입력하고, 가장 중요한 개인정보 보호관행을 작성합니다. 
+
+   마지막으로 `제출하여 검토받기` 버튼을 눌러 제출하면 끝입니다.
+
+   - 승인
+   
+   승인이 완료되면 승인이 완료되었다는 이메일이 옵니다.
+
+   위 사진과 같이 웹스토어에 정상적으로 등록된 것을 확인할 수 있었습니다.
 
 
 https://developer.chrome.com/docs/webstore/register/
+https://developer.chrome.com/docs/webstore/publish/
