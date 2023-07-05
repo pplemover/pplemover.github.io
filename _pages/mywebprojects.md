@@ -40,7 +40,7 @@ UI/UX 툴 피그마(Figma)를 사용해보신 적이 있으신가요? 대학생 
 - https://swaglog.tistory.com/136
 
 
-## - 2027 Election 공약비교
+## - 2027 Election 공약 비교 사이트
 - 부동산, 교통, 에너지, 세금, 청년층, 장년층, 교육 등등
 - PDF 다운로드 Candidate Report = Download PDF 
 
