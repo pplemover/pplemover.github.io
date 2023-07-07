@@ -1,5 +1,5 @@
 ---
-title: [업무자동화] 요즘대세 AI로 웹사이트 업그레이드하기
+title: AI로 웹사이트 업그레이드하기
 author: pplemover
 date: 2023-06-10
 category: Jekyll
